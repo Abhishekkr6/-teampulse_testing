@@ -1,0 +1,88 @@
+:root {
+    color-scheme: light dark;
+    --bg-color: #f5f7fa;
+    --text-color: #1f2933;
+    --accent-color: #2563eb;
+    --accent-color-dark: #1d4ed8;
+    --card-bg: #ffffff;
+    --card-border: #d1d5db;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header,
+.site-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    margin: 0.5rem 0 0;
+    color: rgba(31, 41, 51, 0.75);
+}
+
+main {
+    flex: 1;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1rem;
+}
+
+.card {
+    width: min(100%, 420px);
+    padding: 2rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card.highlight {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(37, 99, 235, 0.25);
+    border-color: var(--accent-color);
+}
+
+button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 999px;
+    background: var(--accent-color);
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover,
+button:focus {
+    background: var(--accent-color-dark);
+    outline: none;
+}
+
+.site-footer {
+    font-size: 0.875rem;
+    color: rgba(31, 41, 51, 0.7);
+}
