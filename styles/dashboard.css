@@ -1,0 +1,30 @@
+.status-panel {
+    border: 2px dashed #7c3aed;
+    padding: 1.75rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.08), rgba(14, 165, 233, 0.08));
+}
+
+.status-panel h2 {
+    margin: 0 0 1rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.status-panel ul {
+    margin: 0 0 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.status-panel li {
+    margin-bottom: 0.4rem;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.status-note {
+    margin: 0;
+    color: rgba(17, 24, 39, 0.7);
+    font-size: 0.9rem;
+}
