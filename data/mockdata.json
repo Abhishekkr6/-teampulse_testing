@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Alpha",
+    "score": 42.17,
+    "tags": ["theory", "beta"],
+    "meta": {"active": true, "notes": "placeholder entry"}
+  },
+  {
+    "id": 2,
+    "name": "Beta",
+    "score": 17.42,
+    "tags": ["gamma", "random"],
+    "meta": {"active": false, "notes": "just noise"}
+  },
+  {
+    "id": 3,
+    "name": "Gamma",
+    "score": 73.11,
+    "tags": ["delta"],
+    "meta": {"active": true, "notes": "generated for testing"}
+  }
+]
