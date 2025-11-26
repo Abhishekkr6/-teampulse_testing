@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background: #020617;
+    font-family: "Segoe UI", sans-serif;
+    color: #cbd5f5;
+}
+
+.timeline {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.timeline header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.timeline h1 {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.timeline ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.timeline li::before {
+    content: "";
+    position: absolute;
+    top: 0.4rem;
+    left: 0;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 999px;
+    background: #38bdf8;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.8);
+}
