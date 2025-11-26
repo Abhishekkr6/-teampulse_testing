@@ -1,0 +1,13 @@
+{
+  "environment": "staging",
+  "featureFlags": {
+    "superMode": true,
+    "enableChaos": false,
+    "transparentWidgets": true
+  },
+  "retryPolicy": {
+    "maxAttempts": 5,
+    "backoff": "exponential",
+    "seed": 17
+  }
+}
